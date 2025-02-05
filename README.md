@@ -7,6 +7,10 @@ A simple encryption library for projects.
 ```bash
 pip install git+https://github.com/njnikhiljain/encryption-lib.git
 
+## Add two keys with values
+SALT_KEY = "your salt key"
+EXPIRATION_TIME = 3600  # 1 hour
+
 ## Usage of the library
 
 from encryption_lib.encryption import generate_auth_token, verify_auth_token
